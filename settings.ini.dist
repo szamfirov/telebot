@@ -1,0 +1,11 @@
+[app:main]
+use = egg:telebot
+
+[telegram]
+allowed_user_ids =
+token =
+
+[server:main]
+use = egg:gunicorn
+host = 0.0.0.0
+port = 5556
